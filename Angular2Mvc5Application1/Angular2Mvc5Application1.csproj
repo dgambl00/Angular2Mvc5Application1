@@ -200,8 +200,8 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
-    <Content Include="app\components\todolist\todolist.component.css" />
-    <Content Include="app\components\todolist\todolist.component.html" />
+    <Content Include="src\app\components\todolist\todolist.component.css" />
+    <Content Include="src\app\components\todolist\todolist.component.html" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
@@ -265,10 +265,10 @@
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <ItemGroup>
-    <TypeScriptCompile Include="app\boottodolist.ts" />
-    <TypeScriptCompile Include="app\components\todolist\todolist.component.ts" />
-    <TypeScriptCompile Include="app\services\app.service.todolist.ts" />
-    <TypeScriptCompile Include="app\utils\HttpHelpers.ts" />
+    <TypeScriptCompile Include="src\app\boottodolist.ts" />
+    <TypeScriptCompile Include="src\app\components\todolist\todolist.component.ts" />
+    <TypeScriptCompile Include="src\app\services\app.service.todolist.ts" />
+    <TypeScriptCompile Include="src\app\utils\HttpHelpers.ts" />
     <TypeScriptCompile Include="Scripts\Enums.ts">
       <DependentUpon>TypeLite.Net4.tt</DependentUpon>
     </TypeScriptCompile>
