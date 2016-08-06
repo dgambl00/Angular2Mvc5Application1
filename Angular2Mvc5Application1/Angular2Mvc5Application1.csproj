@@ -207,6 +207,7 @@
     </Content>
     <None Include="Properties\PublishProfiles\JocelynBlog - Web Deploy.pubxml" />
     <None Include="readme.md" />
+    <Content Include="gulp.js" />
     <Content Include="Scripts\ai.0.22.19-build00125.js" />
     <Content Include="Scripts\ai.0.22.19-build00125.min.js" />
     <Content Include="systemjs.config.js" />
